@@ -136,3 +136,7 @@ Ecorps/
 └── LICENSE
 
 ---
+
+## Contribution
+
+Les contributions sont les bienvenues ! Merci de soumettre une pull request ou d’ouvrir une i#ssue.
