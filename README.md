@@ -2,7 +2,7 @@
 
 # Readme
 
-# Premier stagiaire 
+# Premier stagiaire :
 
 # Ecorps
 
@@ -76,6 +76,6 @@ Ecorps/
 
 ## Contribution
 
-Les contributions sont les bienvenues ! Merci de soumettre une pull request ou d’ouvrir une issue.
+Les contributions sont les bienvenues ! Merci de soumettre une pull request ou d’ouvrir une i#ssue.
 
-
+# Deuxième stagiaire :  
