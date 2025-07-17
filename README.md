@@ -102,3 +102,37 @@ python src/main.py
 ```
 
 ---
+
+## Arborescence du projet
+
+Ecorps/
+├── config/
+│   └── config.yaml
+├── src/
+│   ├── main.py
+│   ├── checker.py
+│   ├── integrity.py
+│   ├── alertesdomaines.py
+│   ├── certificatelec.py
+│   ├── dnstwist.py
+│   ├── scanport.py
+│   ├── notifier.py
+│   ├── logger.py
+│   └── utils.py
+├── logs/
+│   └── monitoring.log
+├── tests/
+│   ├── test_checker.py
+│   └── test_integrity.py
+├── docs/
+│   ├── README.md
+│   ├── cahier_des_charges.md
+│   ├── recette.md
+│   ├── architecture.md
+│   ├── manuel_installation.md
+│   ├── manuel_utilisateur.md
+│   └── changelog.md
+├── requirements.txt
+└── LICENSE
+
+---
