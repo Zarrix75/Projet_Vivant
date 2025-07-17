@@ -99,7 +99,8 @@ Python 3.8 ou supérieur
 
 1. Modifications des noms de domaines dans le fichier config.yaml ; scanport.py ligne 19 et main.py ligne 49.
 2. Modification des url webhook pour que l'envoie de l'alerte fonctionne dans les fichier suivant : config.yaml, altertesdomaines.py et dnstwist.py.
-3. Modification de la clé api dans le fichier suivant : alertesdomaines.py ligne 32. 
+3. Modification de la clé api dans le fichier suivant : alertesdomaines.py ligne 32.
+4. Modification des sites dans le fichier suivant : sites.txt
 
 ## Utilisation
 
