@@ -48,7 +48,9 @@ python src/main.py
 
 Ecorps/
 ├── config/
-│   └── config.yaml
+│   └── config/
+│     └── config.yaml
+│     └── site.txt
 ├── src/
 │   ├── main.py
 │   ├── checker.py
@@ -136,6 +138,11 @@ Ecorps/
 └── LICENSE
 
 ---
+# Modifications à apporté pour que ca fonctionne 
+
+1. Modifications des noms de domaines dans le fichier config.yaml ; scanport.py ligne 19 et main.py ligne 49.
+2. Modification des url webhook pour que l'envoie de l'alerte fonctionne dans les fichier suivant : config.yaml, altertesdomaines.py et dnstwist.py.
+3. Modification de la clé api dans le fichier suivant : alertesdomaines.py ligne 32. 
 
 ## Contribution
 
