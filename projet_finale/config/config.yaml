@@ -1,0 +1,33 @@
+# Configuration du monitoring
+
+domains:  # Liste des domaines à surveiller
+  - "exemple.com"
+  - "exemple2.com"
+  - "exemple3.com"
+
+
+interval: 10  # en secondes
+
+error_codes:  # Liste des codes HTTP considérés comme erreurs
+  - 400
+  - 401
+  - 403
+  - 404
+  - 408
+  - 429
+  - 500
+  - 502
+  - 503
+  - 504
+
+alerts:
+  webhook:
+    enabled: true
+    url : "YOUR_WEBHOOK_URL_HERE"
+
+  email:
+    enabled: false
+
+sites_file: "config/config/sites.txt"
+
+##un fichier txt où appararait plutôt l'url et non le nom du site

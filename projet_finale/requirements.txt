@@ -1,0 +1,5 @@
+requests>=2.25.1
+dnstwist>=20230418
+urllib3>=1.26.0
+types-requests>=2.25.1
+PyYAML>=6.0
