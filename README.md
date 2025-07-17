@@ -92,3 +92,13 @@ Un outil qui permet d'envoyer des alertes de sécurité en cas d'expiration ou d
 ## Prérequis
 
 Python 3.8 ou supérieur
+
+## Utilisation
+
+Lancez le script principal :
+
+```bash
+python src/main.py
+```
+
+---
