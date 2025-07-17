@@ -79,3 +79,16 @@ Ecorps/
 Les contributions sont les bienvenues ! Merci de soumettre une pull request ou d’ouvrir une i#ssue.
 
 # Deuxième stagiaire :  
+
+Un outil qui permet d'envoyer des alertes de sécurité en cas d'expiration ou de problème.
+
+## Fonctionnalités principales
+
+- Alerte sur l’expiration prochaine des certificats électroniques
+- Alerte sur l’expiration prochaine des noms de domaines / registrars
+- Scan des ports (nmap) ouverts sur la machine hébergeant le site et suivi dans le temps de l'évolution (ce qui signifie de les conserver) - avec alerte en cas d’apparition d’un nouveau port
+- Identification des sites similaires typosquattés (DNS twist - snapshot page d’accueil ?)
+
+## Prérequis
+
+Python 3.8 ou supérieur
